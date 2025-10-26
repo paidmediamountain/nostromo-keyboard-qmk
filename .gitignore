@@ -1,0 +1,44 @@
+# Build artifacts
+*.hex
+*.elf
+*.map
+*.bin
+.build/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# QMK specific
+*.eep
+*.lss
+*.lst
+*.sym
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+
+# But keep the pre-compiled hex
+!firmware/weyland_yutani_nostromo_default.hex
