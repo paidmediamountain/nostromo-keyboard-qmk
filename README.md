@@ -2,6 +2,8 @@
 
 A custom 45-key mechanical keyboard with QMK firmware, inspired by the iconic spacecraft from the Alien franchise.
 
+![Finished Keyboard](images/FinishedKBD.jpg)
+
 ## Features
 
 - **45-key layout** with 2u stabilized keys for Tab, Backspace, Shift, Space, and Return
@@ -144,6 +146,17 @@ Switch Pin 1 ───┤>├─── To Row Wire
 
 Switch Pin 2 ────────── To Column Wire
 ```
+
+## Build Gallery
+
+### Pro Micro Controller
+![Pro Micro](images/ProMicro.jpg)
+
+### Switch Installation
+![Adding Keys](images/AddingKeys.jpg)
+
+### Matrix Wiring
+![Wiring](images/Wiring.jpg)
 
 ## Building the Firmware
 
