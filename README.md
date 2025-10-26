@@ -157,6 +157,7 @@ Switch Pin 2 ────────── To Column Wire
 
 ### Matrix Wiring
 ![Wiring](images/Wiring.jpg)
+*Note: Work in progress - top 2 rows not yet wired in this photo*
 
 ## Building the Firmware
 
