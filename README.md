@@ -73,13 +73,16 @@ Features:
 
 ## Hardware
 
+### 3D Printable Files
+- **Plate STL**: `hardware/plate.stl` - Mounting plate for switches
+
 ### Required Components
 - 1x Pro Micro (or compatible ATmega32U4 board)
 - 45x Cherry MX compatible switches
 - 45x 1N4148 diodes
 - Wire for matrix
 - USB cable
-- Case/mounting solution
+- Case/mounting solution (or 3D print the included plate)
 
 ### Matrix Layout (5x10)
 ```
@@ -239,6 +242,8 @@ nostromo-keyboard-qmk/
 ├── firmware/               # QMK firmware files
 │   └── weyland_yutani/
 │       └── nostromo/
+├── hardware/               # 3D printable files
+│   └── plate.stl
 ├── docs/                   # Documentation
 ├── scripts/                # Helper scripts
 ├── images/                 # Photos and diagrams
@@ -252,10 +257,10 @@ This project is open source and available under the MIT License.
 ## Credits
 
 - Built with [QMK Firmware](https://qmk.fm/)
-- Inspired by the Nostromo spacecraft from the Alien franchise
+- Inspired by the main computer terminal used by the captain and Ripley aboard the Nostromo spacecraft from the Alien franchise
 - Special thanks to the QMK community
 
-**Note:** This is an unofficial fan project. "Alien," "Nostromo," and "Weyland-Yutani" are trademarks of 20th Century Studios.
+**Note:** This is an unofficial fan project. "Alien," "Nostromo," "Ripley," and "Weyland-Yutani" are trademarks of 20th Century Studios.
 
 ## Contact
 
